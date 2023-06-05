@@ -31,4 +31,4 @@ while num <= size * size:  # until the filler is less than and equal to the numb
         matrix[y][x] = num
         num += 1
 for i in matrix:
-    print(i)
+    print(*i)
